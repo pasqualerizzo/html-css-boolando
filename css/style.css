@@ -170,6 +170,10 @@ li > * {
     font-weight: 600;
 }
 
+.description {
+    padding-bottom: 50px;
+}
+
 .ecology span {
     color: white;
     font-size: 0.8em;
