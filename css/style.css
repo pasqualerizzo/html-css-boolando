@@ -27,11 +27,6 @@ header .container-principale {
     margin: 0 auto;
 }
 
-.main-container {
-    width: 1200px;
-    margin: 0 auto;
-}
-
 .footer-container {
     width: 1200px;
     margin: 0 auto;
@@ -39,22 +34,22 @@ header .container-principale {
 
 /* Header */
 
-.column-header {
+.row-header {
     display: flex;
     background-color: #ff6900;
     justify-content: space-between;
     align-items: center;
 }
 
-.row-navbar {
+.column-navbar {
     display: flex;
 }
 
-.row-account {
+.column-account {
     display: flex;
 }
 
-.row-navbar ul {
+.column-navbar ul {
     display: flex
 }
 
@@ -68,24 +63,178 @@ li > * {
     text-decoration: none;
 }
 
-.row-navbar li {
+.column-navbar li {
     padding: 10px 10px 10px 0;
 }
 
-.row-navbar a {
+.column-navbar a {
     color: white;
     font-size: 1.2em;
     font-weight: 400;
 }
 
-.row-logo img {
+.column-logo img {
     height: 30px;
 }
 
-.row-account a > i {
+.column-account a > i {
     color: white;
     padding-right: 5px;
 }
 
+/* fine header */
+
 /* main */
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row-main {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.row-main a >*{
+    width: calc(1150px / 3);
+}
+
+.product {
+    position: relative;
+}
+
+.whishlist{
+    font-size: 2em;
+    background-color: white;
+    position: absolute;
+    padding: 5px 10px;
+    margin-top: 10px;
+    left: 345px;
+}
+
+.whishlist > a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    width: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.whishlist > a:hover{   
+    color: red;
+}
+
+.discount {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 60px;
+    background-color: red;
+    color: white;
+    width:50px;
+    text-align: center;
+}
+
+.discount span {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.ecology {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 60px;
+    margin-left: 55px;
+    background-color: green;
+    width:100px;
+    height: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.ecology-2 {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 60px;
+    background-color: green;
+    width:100px;
+    height: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.ecology span {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.ultima {
+    margin-left: 0px;
+}
+
+.prezzo-con-sconto {
+    color: red;
+    font-weight: 600;
+}
+
+.prezzo-precedente {
+    text-decoration: line-through;
+}
+
+/* fine main */
+
+/* inizio footer */
+
+.container-footer{
+    background-color: #000000;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-container{
+    background-color: #000000;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row-footer1 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.column-navbar h5 {
+    color: white;
+    font-size: 1.2em;
+}
+.column-navbar h5 {
+    color: white;
+    font-size: 1.2em;
+}
+
+
+.column-social {
+    display: flex;
+    color: white;
+}
+
+.column-social-icone a {
+    color: white;
+    font-size: 1.5em;
+    padding-right: 5px;
+}
 
